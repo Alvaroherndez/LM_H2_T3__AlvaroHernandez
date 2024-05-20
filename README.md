@@ -43,8 +43,6 @@ El proceso de cálculo se realiza de la siguiente manera:
 
 Esta función es fundamental para el análisis de los datos de la encuesta, ya que permite obtener información relevante sobre la tendencia general de las respuestas para cada pregunta. Los promedios calculados son utilizados posteriormente para generar gráficos que visualizan de manera clara y concisa los resultados de la encuesta.
 
-En el README del proyecto se explicará de forma detallada la implementación y el propósito de esta función, proporcionando así una comprensión completa de cómo se han analizado los datos de la encuesta.
-
 ### Requerimientos
 
 - Un navegador web compatible con HTML5, CSS3 y JavaScript.
