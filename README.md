@@ -24,6 +24,27 @@ Para utilizar este proyecto, simplemente abre el archivo `index.html` en un nave
 
 - **Cálculos de Datos**: El código JavaScript incluye funciones para calcular los promedios de las respuestas a cada pregunta, así como los promedios por centro, por grado y por género. Estos cálculos se utilizan para generar los datos necesarios para los gráficos de barras.
 
+- Por supuesto, aquí tienes una explicación detallada sobre la función implementada para calcular el promedio de los datos de la encuesta:
+
+**Función para Calcular el Promedio de Respuestas**
+
+En el código JavaScript, se ha implementado una función denominada `calculateQuestionAverages(data)`, la cual recibe como parámetro un arreglo de objetos que representan los datos de la encuesta. Esta función tiene como objetivo calcular el promedio de las respuestas para cada una de las preguntas realizadas en la encuesta.
+
+El proceso de cálculo se realiza de la siguiente manera:
+
+1. **Iteración por Preguntas:**
+   Se itera sobre un conjunto de preguntas, representadas por los números del 1 al 5.
+
+2. **Cálculo del Promedio:**
+   Para cada pregunta, se recorre el arreglo de datos de la encuesta y se suman las respuestas correspondientes a esa pregunta para todos los estudiantes. Luego, se divide la suma total por la cantidad de estudiantes para obtener el promedio de respuestas para esa pregunta.
+
+3. **Retorno de Resultados:**
+   La función retorna un arreglo que contiene los promedios calculados para cada una de las preguntas de la encuesta.
+
+Esta función es fundamental para el análisis de los datos de la encuesta, ya que permite obtener información relevante sobre la tendencia general de las respuestas para cada pregunta. Los promedios calculados son utilizados posteriormente para generar gráficos que visualizan de manera clara y concisa los resultados de la encuesta.
+
+En el README del proyecto se explicará de forma detallada la implementación y el propósito de esta función, proporcionando así una comprensión completa de cómo se han analizado los datos de la encuesta.
+
 ### Requerimientos
 
 - Un navegador web compatible con HTML5, CSS3 y JavaScript.
